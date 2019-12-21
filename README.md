@@ -1,4 +1,4 @@
-# te-telephony
+# sip-phone-rs
 A minimal coverage library that utilizes pjproject to achive telephony in rust. 
 
 ## Exported Functions
@@ -81,7 +81,7 @@ pub enum OnIncommingCall {
 Cargo.toml file
 ``` toml
 [dependencies]
-
+te-telephony-rs = { git = "https://github.com/Charles-Schleich/sip-phone-rs.git", branch = "master" }
 ```
 There may be a step here that involves using git credential store helper on your machine, for Toml uses that for non-crates.io sources of crates.
 
